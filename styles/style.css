@@ -408,7 +408,7 @@
 /*для ширины экрана >= 1024px*/
 @media (width >= 1024px) {
   /* Общие стили для шапки*/
-  .header { 
+  .header {
     margin-block-end: 60px;
     padding-top: 20px;
     padding-right: 0px;
