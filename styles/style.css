@@ -408,10 +408,10 @@
 /*для ширины экрана >= 1024px*/
 @media (width >= 1024px) {
   /* Общие стили для шапки*/
-  .header {
+  .header { 
     margin-block-end: 60px;
     padding-top: 20px;
-    padding-right: 20px;
+    padding-right: 0px;
     padding-bottom: 0px;
     padding-left: 0px;
   }
@@ -419,6 +419,7 @@
   .header__theme-menu-list {
     flex-direction: row;
     justify-self: center;
+    align-self: start;
     justify-content: center;
     gap: 10px;
     margin-inline-end: 0px;
@@ -432,6 +433,7 @@
 
   .header__text-under-title {
     max-width: 491px;
+    margin-inline-end: 20px;
     margin-block-end: 134px;
   }
 
