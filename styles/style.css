@@ -129,7 +129,7 @@
 }
 
 .header__theme-menu-button:focus-visible {
-  outline: none; 
+  outline: none;
   border-bottom: 1px solid currentColor;
 }
 
