@@ -188,6 +188,10 @@
   margin-block-end: 50px;
 }
 
+.goldfish__intro {
+  margin-block-end: 20px;
+}
+
 .goldfish__subtitle {
   font-weight: var(--font-weight-regular);
 }
