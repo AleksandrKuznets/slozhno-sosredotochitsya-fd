@@ -1,4 +1,5 @@
 :root.theme-light {
+  --bg-color: #fff1f7;
   --bg-image: url('../images/cover-image-light.png');
   --font-family: 'IBM Plex mono';
   --font-size-base: 1.125rem;
@@ -18,6 +19,7 @@
 
 @media (prefers-color-scheme: light) {
   :root {
+    --bg-color: #fff1f7;
     --bg-image: url('../images/cover-image-light.png');
     --font-family: 'IBM Plex mono';
     --font-size-base: 1.125rem;
@@ -40,8 +42,4 @@
 
 .theme-light .header__rec {
   display: none;
-}
-
-.theme-light .page {
-  /* Вам также нужно будет написать ряд подобных селекторов */
 }
