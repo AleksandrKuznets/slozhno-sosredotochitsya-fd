@@ -1,12 +1,7 @@
 :root.theme-light {
   --bg-color: #fff1f7;
   --bg-image: url('../images/cover-image-light.png');
-  --font-family: 'IBM Plex mono';
-  --font-size-base: 1.125rem;
-  --font-size-title: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   --accent-color: #353430;
-  --font-weight-bold: 700;
-  --font-weight-regular: 400;
   --section-title-text-color: #353430;
   --section-subtitle-text-color: #353430;
   --section-subtitle-background-color: #ff8dcb;
@@ -21,12 +16,7 @@
   :root {
     --bg-color: #fff1f7;
     --bg-image: url('../images/cover-image-light.png');
-    --font-family: 'IBM Plex mono';
-    --font-size-base: 1.125rem;
-    --font-size-title: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
     --accent-color: #353430;
-    --font-weight-bold: 700;
-    --font-weight-regular: 400;
     --section-title-text-color: #353430;
     --section-subtitle-text-color: #353430;
     --section-subtitle-background-color: #ff8dcb;
@@ -34,6 +24,7 @@
     --btn-text-color: #353430;
     --text-shadow-color: #ff8dcb;
     --title-text-color: #ffc2e6;
+    --btn-hover-color: rgba(50, 49, 45, 0.4); /* Цвет #32312D с 40% непрозрачности */
   }
   .header__rec {
     display: none;
